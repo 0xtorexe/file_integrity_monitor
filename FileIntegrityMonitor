@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""File Integrity Monitor - Native GTK4 desktop application.
+
+Launches the GUI without a terminal.  Run with:
+  ./FileIntegrityMonitor
+or
+  python3 FileIntegrityMonitor
+"""
+
+from file_integrity.gui import main
+
+if __name__ == "__main__":
+    raise SystemExit(main())
